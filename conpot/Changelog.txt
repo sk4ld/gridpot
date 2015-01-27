@@ -1,0 +1,31 @@
+Conpot 0.4.0 (release 2015-01-03)
+    * Rework of template engine, templates are now specified as directories.
+    * Numerous bugfixes and minor enhancements.
+
+Conpot 0.3.1 (release 2014-09-25)
+    * Added MySQL logging.
+    * Added Kamstrup managment protocol (telnet).
+    * Numerous bugfixes and minor enhancements.
+
+Conpot 0.3.0 (release 2014-08-10)
+    * Moved all honeypot configuration to XML templates.
+    * Added STIX and TAXII reporting.
+    * Added Kamstrup smart meter protocol.
+    * Numerous bugfixes and minor enhancements.
+
+Conpot 0.2.1 (release 2013-05-29)
+    * Fixed modbus_tk install issue.
+
+Conpot 0.2.0 (release 2013-05-25)
+    * Added support for loading of MIBs (issue #46).
+    * All dependencies are now installed automatically (issue #39).
+    * Fixed logging of SNMPv3 requests (issue #24).
+    * HPFriends client added.
+
+Conpot 0.1.1 (release 2013-05-13)
+    * Fixed root logger.
+    * Updated documentation.
+    * Various minor cleanups.
+
+Conpot 0.1.0 (release 2013-05-10)
+    * First release.

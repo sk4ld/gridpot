@@ -1,0 +1,31 @@
+// $Id$
+// 
+// Test groupid function
+
+clock {
+	timezone PST+8PDT;
+	starttime '2000-01-01 0:00:00 PST';
+	stoptime '2000-01-02 0:00:00 PST';
+}
+
+module residential {
+	implicit_enduses NONE;
+}
+
+object house:..10 {
+	groupid A;
+}
+
+object house:..12 {
+	groupid B;
+}
+
+module tape;
+
+object collector {
+	group "class=house AND groupid=A";
+	property "count(floor_area)";
+	limit 10;
+	interval 3600;
+	file output.csv;
+}

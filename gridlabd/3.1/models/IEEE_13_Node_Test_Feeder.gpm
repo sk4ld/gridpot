@@ -1,0 +1,5 @@
+#GRIDPOT model for conpot instances
+[conpot1]
+switch: switch_671-692
+transformer: transformer_633-634
+regulator: fregn650n630

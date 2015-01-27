@@ -1,0 +1,12 @@
+# file...... node_417.csv
+# date...... Tue Jan 20 13:26:05 2015
+# user...... sk4ld
+# host...... (null)
+# target.... node 626
+# trigger... (none)
+# interval.. 60
+# limit..... 1440
+# timestamp,voltage_A,voltage_B,voltage_C,voltage_AB,voltage_BC,voltage_CA
+2015-01-20 13:26:05 EST,+7130+18.4028j,+0+0j,+0+0j,+7130+18.4028j,+0+0j,-7130-18.4028j
+2015-01-20 13:27:05 EST,+7137.11+16.7137j,+0+0j,+0+0j,+7137.11+16.7137j,+0+0j,-7137.11-16.7137j
+2015-01-20 13:28:05 EST,+7123.01+3.59012j,+0+0j,+0+0j,+7123.01+3.59012j,+0+0j,-7123.01-3.59012j

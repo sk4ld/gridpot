@@ -1,0 +1,1 @@
+rsync -rvP --delete -e "ssh -i /home/Administrator/.ssh/id_dsa" %1 natet,gridlab-d@%2:%3

@@ -1,0 +1,12 @@
+# file...... R1-12.27-1_reg_output.csv
+# date...... Tue Jan 20 13:26:05 2015
+# user...... sk4ld
+# host...... (null)
+# target.... regulator 0
+# trigger... (none)
+# interval.. 60
+# limit..... 1440
+# timestamp,tap_A,tap_B,tap_C,power_in_A.real,power_in_A.imag,power_in_B.real,power_in_B.imag,power_in_C.real,power_in_C.imag,power_in.real,power_in.imag
+2015-01-20 13:26:05 EST,0,0,0,+840169,+809938,+2.23951e+06,+876804,+2.36645e+06,+942359,+5.44613e+06,+2.6291e+06
+2015-01-20 13:27:05 EST,0,0,0,+906651,+873734,+2.48279e+06,+1.0607e+06,+2.71196e+06,+1.26334e+06,+6.1014e+06,+3.19777e+06
+2015-01-20 13:28:05 EST,0,0,0,+906986,+879525,+2.46302e+06,+624678,+2.72111e+06,+1.25331e+06,+6.09111e+06,+2.75751e+06

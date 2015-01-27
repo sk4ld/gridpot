@@ -1,0 +1,4 @@
+clock {
+	timezone PST+8PDT;
+	timezone US/CA/Los Angeles;
+}

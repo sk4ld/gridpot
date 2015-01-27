@@ -1,0 +1,4 @@
+mysql/mysql_mysql_la-database.lo: mysql/database.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

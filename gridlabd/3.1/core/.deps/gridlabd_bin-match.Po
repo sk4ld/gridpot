@@ -1,0 +1,6 @@
+core/gridlabd_bin-match.o: core/match.c /usr/include/stdc-predef.h \
+ core/match.h
+
+/usr/include/stdc-predef.h:
+
+core/match.h:

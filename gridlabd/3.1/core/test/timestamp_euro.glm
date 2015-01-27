@@ -1,0 +1,22 @@
+// $Id$
+//
+// Timestamp tests
+
+//#include "debugger.glm"
+#set dateformat=EURO
+
+class test {
+	timestamp a;
+	intrinsic create (object parent) {
+		return 1;
+	};
+	intrinsic init (object parent) {
+		char buffer[256];
+		gl_output("a = %s", gl_strftime(a, buffer, 255));
+		return 1;
+	};
+}
+
+object test {
+	a '24/03/2002 17:32:28';
+}

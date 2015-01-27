@@ -1,0 +1,10 @@
+# file...... R1-12.47-1_capacitor1.csv
+# date...... Tue Jan  6 17:13:16 2015
+# user...... sk4ld
+# host...... (null)
+# target.... capacitor 2
+# trigger... (none)
+# interval.. 60
+# limit..... 1440
+# timestamp,switchA,switchB,switchC,voltage_A.real,voltage_A.imag,voltage_B.real,voltage_B.imag,voltage_C.real,voltage_C.imag
+2015-01-06 17:13:16 EST,OPEN,OPEN,OPEN,+7088.84,+16.1091,-3647.98,-5826.23,-3178.61,+6227.59

@@ -1,0 +1,33 @@
+#set verbose=TRUE
+
+module mysql;
+module debug;
+
+object database {
+}
+
+class test {
+	random x;
+}
+
+object test {
+	name test;
+	x type:normal(0,0.72);
+}
+object test:..10 {
+	x type:normal(0,1);
+}
+object collector {
+	property "mean(x),sum(x),count(x)";
+	group "class=test";
+	mode "w";
+	file "test.csv";
+	interval 1h;
+	limit 1000;
+	object debug { 
+		target mode;
+		options DETAILS;
+		event INIT|SYNC|COMMIT;
+	};
+}
+

@@ -1,0 +1,10 @@
+# file...... 986.csv
+# date...... Tue Jan 20 10:32:30 2015
+# user...... sk4ld
+# host...... (null)
+# target.... triplex_meter 1239
+# trigger... (none)
+# interval.. 60
+# limit..... 1440
+# timestamp,voltage_1,voltage_2
+2015-01-20 10:32:30 EST,-57.8009+99.1472j,-60.874+105.06j

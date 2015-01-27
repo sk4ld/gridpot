@@ -1,0 +1,4 @@
+mysql/mysql_mysql_la-collector.lo: mysql/collector.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

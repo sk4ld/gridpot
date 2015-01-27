@@ -1,0 +1,43 @@
+<HTML>
+    <meta http-equiv="refresh" content="2">
+
+    <HEAD>
+        <TITLE>Overview</TITLE>
+    </HEAD>
+
+    <BODY>
+
+        <h2><condata source="databus" key="SystemName" /></h2>
+        <hr>
+        &nbsp;<br>
+
+        <b>Status:</b><br>
+        &nbsp;<br>
+        <table border="0">
+
+            <tr>
+
+                <td style="width:150px;"><b>Current time:</b></td>
+                <td><condata source="eval" key="time.strftime('%H:%M:%S', time.localtime())" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td style="width:150px;"><b>System uptime:</b></td>
+                <td><condata source="databus" key="Uptime" /> timeticks (deciseconds)</td>
+
+            </tr>
+            
+            <condata source="gridpot" key="switch_671-692" />
+            
+            <condata source="gridpot" key="transformer_633-634" />
+            
+            <condata source="gridpot" key="fregn650n630" />
+            
+
+        </table>
+
+    </BODY>
+
+</HTML>

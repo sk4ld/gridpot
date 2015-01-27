@@ -1,0 +1,10 @@
+# file...... R5-35.00-1_reg_output.csv
+# date...... Tue Jan 20 10:32:30 2015
+# user...... sk4ld
+# host...... (null)
+# target.... regulator 0
+# trigger... (none)
+# interval.. 60
+# limit..... 1440
+# timestamp,tap_A,tap_B,tap_C,power_in_A.real,power_in_A.imag,power_in_B.real,power_in_B.imag,power_in_C.real,power_in_C.imag,power_in.real,power_in.imag
+2015-01-20 10:32:30 EST,0,0,0,+5.25134e+06,+2.92251e+06,+4.42289e+06,+2.45993e+06,+5.71803e+06,+3.18529e+06,+1.53923e+07,+8.56773e+06

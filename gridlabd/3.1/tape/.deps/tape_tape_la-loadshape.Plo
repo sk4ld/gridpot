@@ -1,0 +1,4 @@
+tape/tape_tape_la-loadshape.lo: tape/loadshape.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

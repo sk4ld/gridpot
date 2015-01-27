@@ -1,0 +1,4 @@
+third_party/superLU_MT/third_party_superLU_MT_libsuperlu_la-await.lo: \
+ third_party/superLU_MT/await.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
