@@ -1,5 +1,5 @@
-# gridpot-dev
-Private gridpot repo
+# gridpot
+
 
 # Install 
 
