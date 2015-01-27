@@ -1,5 +1,17 @@
-# gridpot
+# gridpot-dev
+Private gridpot repo
 
+# Dependencies
+Install these dependencies before buiding and installing gridlabd and conpot
+
+* autconf/automake/libtool
+* subversion
+* python-dev
+* mysql-server   (library and dev files)
+* python-mysqldb
+* xerces-c       (library and dev files)
+
+more gridlabd info: http://gridlab-d.sourceforge.net/wiki/index.php/Linux/Unix
 
 # Install 
 
@@ -24,7 +36,6 @@ for GridLAB-D
 cd gridlabd/3.1/models
 
 gridlabd -D run_realtime=1 --server --debug --verbose IEEE_13_Node_Test_Feeder.glm 
-
 
 For conpot:
 
