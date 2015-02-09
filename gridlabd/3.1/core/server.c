@@ -110,6 +110,7 @@ static unsigned int n_threads = 0;
 static pthread_t thread_id;
 static void *server_routine(void *arg)
 {
+	pthread_detach(pthread_self());
 	static int status = 0;
 	static int started = 0;
 	if (started)
@@ -155,8 +156,7 @@ static void *server_routine(void *arg)
 					}
 				}
 			}
-			if(server_join())
-				output_verbose("CALLED server_join, and cleaned up some threads");
+			
 				
 			if (global_server_quit_on_close)
 				shutdown_now();
@@ -1204,6 +1204,7 @@ int http_favicon(HTTPCNX *http)
  **/
 void *http_response(void *ptr)
 {
+	pthread_detach(pthread_self());//memleak fix by sk4ld
 	SOCKET fd = (SOCKET)ptr;
 	HTTPCNX *http = http_create(fd);
 	size_t len;
