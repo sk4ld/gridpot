@@ -2,7 +2,8 @@
 
 
 # Dependencies
-Install these dependencies before buiding and installing gridlabd and conpot
+Install these dependencies before buiding and installing gridlabd, conpot, libiec61850
+and electric_components
 
 * autconf/automake/libtool
 * subversion
@@ -10,6 +11,7 @@ Install these dependencies before buiding and installing gridlabd and conpot
 * mysql-server   (library and dev files)
 * python-mysqldb
 * xerces-c       (library and dev files)
+* libcurl
 
 more gridlabd info: http://gridlab-d.sourceforge.net/wiki/index.php/Linux/Unix
 
@@ -26,6 +28,13 @@ conpot/sudo python setup.py install
 Set up gridlabd with:
 
 sudo make install
+
+Set up libiec61850
+make
+sudo make INSTALL_PREFIX=/usr/local install
+
+set up electric_components
+make
 
 # Demo commands
 

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created by GE Multilin Mon Jun 30, 2008 -->
+<SCL xmlns="http://www.iec.ch/61850/2003/SCL"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.iec.ch/61850/2003/SCL SCL.xsd"> 
+<Header id="Brick" version="5.601" revision="1" toolID="ICDGenerator"
+        nameStructure="IEDName"/>
+<Communication>
+  <SubNetwork name="NONE">
+    <ConnectedAP iedName="IEDName" apName="P1">
+      <Address>
+        <P type="IP" xsi:type="tP_IP">192.168.37.199</P>
+        <P type="IP-SUBNET" xsi:type="tP_IP-SUBNET">255.255.255.0</P> 
+        <P type="IP-GATEWAY" xsi:type="tP_IP-GATEWAY">0.0.0.0</P>
+        <P type="S-Profile">1</P>
+      </Address>
+      <SMV ldInst="LDInst" cbName="MSVCB01">
+        <Address>
+          <P type="MAC-Address" xsi:type="tP_MAC-Address"> 01-0C-CD-04-00-00</P>
+          <P type="APPID" xsi:type="tP_APPID">0000</P>
+          <P type="VLAN-ID" xsi:type="tP_VLAN-ID">007</P>
+          <P type="VLAN-PRIORITY" xsi:type="tP_VLAN-PRIORITY">0</P>
+        </Address>
+      </SMV>
+      <SMV ldInst="LDInst" cbName="MSVCB02">
+        <Address>
+          <P type="MAC-Address" xsi:type="tP_MAC-Address"> 01-0C-CD-04-00-00</P>
+          <P type="APPID" xsi:type="tP_APPID">0000</P>
+          <P type="VLAN-ID" xsi:type="tP_VLAN-ID">007</P>
+          <P type="VLAN-PRIORITY" xsi:type="tP_VLAN-PRIORITY">0</P>
+        </Address>
+      </SMV>
+    </ConnectedAP>
+  </SubNetwork>
+</Communication>
+<IED type="GE Brick Merging Unit" configVersion="1.0" desc="Brick"
+     name="IEDName" manufacturer="GE Multilin">
+  <Services>
+    <ConfLNs fixPrefix="true" fixLnInst="true"/>
+    <ConfDataSet max="2" maxAttributes="14"/>
+    <GOOSE max="0"/>
+    <GSESettings cbName="Fix" appID="Dyn"/>
+    <SMVSettings cbName="Fix" datSet="Fix" svID="Fix" optFields="Fix"
+                 smpRate="Fix">
+      <SmpRate>128</SmpRate>
+      <SmpRate>16</SmpRate>
+    </SMVSettings>
+  </Services>
+  <AccessPoint name="P1">
+    <Server>
+      <Authentication none="true"/>
+      <LDevice inst="LDInst">
+<LN0 lnType="IEDName/LDInst/LLN0_0" lnClass="LLN0" inst=""> <DataSet name="F" desc="Fast Data Set of Brick's Sampled Values
+Transmitted via Multicast SV Service">
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac1"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac2"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac3"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac4"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac5"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac6"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac7"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.ac8"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.dc1"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.dc2"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="MX" doName="U" daName="analogs.dc3"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="ST" doName="U" daName="contactInputs"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+fc="ST" doName="U" daName="sharedInputs"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
+                  fc="ST" doName="U" daName="outputMonitors"/>
+          </DataSet>
+          <DataSet name="S" desc="Slow Data Set of Brick's Sampled Values
+                   Transmitted via Multicast SV Service">
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK" fc="CF" doName="U" daName="model"/><FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK" fc="ST" doName="U" daName="smpNum"/>
+<FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK" fc="ST" doName="U" daName="diagnostics"/>
+</DataSet>
+<SampledValueControl name="MSVCB01" smvID="0022040080141/F"
+                               smpRate="128" nofASDU="8" confRev="1"
+datSet="F">
+<SmvOpts refreshTime="false" sampleSynchronized="true"
+sampleRate="false" security="false" dataRef="false"/> </SampledValueControl>
+<SampledValueControl name="MSVCB02" smvID="0022040080141/S" smpRate="16" nofASDU="1" confRev="1"
+datSet="S">
+<SmvOpts refreshTime="false" sampleSynchronized="true"
+sampleRate="false" security="false" dataRef="false"/> </SampledValueControl>
+</LN0>
+<LN lnType="IEDName/LDInst/LPHD_0" lnClass="LPHD" inst="1"/> <LN lnType="IEDName/LDInst/IBRK_0" lnClass="IBRK" inst="1"
+            prefix=""/>
+      </LDevice>
+    </Server>
+  </AccessPoint>
+</IED>
+<DataTypeTemplates>
+<LNodeType id="IEDName/LDInst/LLN0_0" lnClass="LLN0"> <DO name="Mod" type="INC_0"/>
+<DO name="Beh" type="INS_0"/>
+<DO name="Health" type="INS_1"/>
+<DO name="NamPlt" type="LPL_0"/>
+</LNodeType>
+<LNodeType id="IEDName/LDInst/LPHD_0" lnClass="LPHD">
+    <DO name="PhyHealth" type="INS_1" />
+    <DO name="Proxy" type="SPS_1"/>
+    <DO name="PhyNam" type="DPL_0"/>
+</LNodeType>
+<LNodeType id="IEDName/LDInst/IBRK_0" lnClass="IBRK">
+    <DO name="Mod" type="INC_0"/>
+    <DO name="Beh" type="INS_0"/>
+    <DO name="Health" type="INS_1"/>
+    <DO name="NamPlt" type="LPL_0"/>
+    <DO name="U" type="BRICK_0"/>
+  </LNodeType>
+  <DOType id="INC_0" cdc="INC">
+<DA name="stVal" fc="ST" dchg="true" bType="Enum" type="Mod"/> <DA name="q" fc="ST" qchg="true" bType="Quality"/>
+<DA name="t" fc="ST" bType="Timestamp"/>
+<DA name="ctlModel" fc="CF" bType="Enum" type="ctlModel"/>
+  </DOType>
+  <DOType id="INS_0" cdc="INS">
+<DA name="stVal" fc="ST" bType="Enum" type="Beh"/> <DA name="q" fc="ST" bType="Quality"/>
+<DA name="t" fc="ST" bType="Timestamp"/>
+  </DOType>
+  <DOType id="INS_1" cdc="INS">
+<DA name="stVal" fc="ST" bType="Enum" type="Health"/> <DA name="q" fc="ST" bType="Quality"/>
+<DA name="t" fc="ST" bType="Timestamp"/>
+  </DOType>
+  <DOType id="LPL_0" cdc="LPL">
+<DA name="vendor" fc="DC" bType="VisString255"/> <DA name="swRev" fc="DC" bType="VisString255"/> <DA name="d" fc="DC" bType="VisString255"/>
+<DA name="configRev" fc="DC" bType="VisString255"/></DOType>
+<DOType id="DPL_0" cdc="DPL">
+  <DA name="vendor" fc="DC" bType="VisString255">
+    <Val>GE Multilin</Val>
+  </DA>
+  <DA name="swRev" fc="DC" bType="VisString255">
+    <Val>5.601</Val>
+  </DA>
+  <DA name="serNum" fc="DC" bType="VisString255"/> 
+  <DA name="model" fc="DC" bType="VisString255"/> 
+  <DA name="location" fc="DC" bType="VisString255"/>
+</DOType>
+<DOType id="SPS_1" cdc="SPS">
+  <DA name="stVal" fc="ST" dchg="true" bType="BOOLEAN"/> 
+  <DA name="q" fc="ST" qchg="true" bType="Quality"/> 
+  <DA name="t" fc="ST" bType="Timestamp"/>
+</DOType>
+<DOType id="BRICK_0" cdc="BRICK">
+  <DA name="smpNum" fc="ST" bType="INT32U" dchg="true"/>
+  <DA name="model" fc="CF" bType="VisString32"/>
+  <DA name="serNum" fc="CF" bType="VisString32"/>
+  <DA name="outputs" fc="CO" bType="OptFlds" dchg="true"/>
+  <DA name="analogs" fc="MX" bType="Struct" type="Analogs_0"/> 
+  <DA name="contactInputs" fc="ST" bType="OptFlds" dchg="true"/> 
+  <DA name="sharedInputs" fc="ST" bType="OptFlds" dchg="true"/> 
+  <DA name="outputMonitors" fc="ST" bType="OptFlds" dchg="true"/> 
+  <DA name="diagnostics" fc="ST" bType="Struct" type="Diagnostics_0"/> 
+  <DA name="lnNs" fc="EX" bType="VisString255"/>
+</DOType>
+<DAType id="Analogs_0">
+  <BDA name="ac1" bType="INT32U"/>
+  <BDA name="ac2" bType="INT32U"/>
+  <BDA name="ac3" bType="INT32U"/>
+  <BDA name="ac4" bType="INT32U"/>
+  <BDA name="ac5" bType="INT32U"/>
+  <BDA name="ac6" bType="INT32U"/>
+  <BDA name="ac7" bType="INT32U"/>
+  <BDA name="ac8" bType="INT32U"/>
+  <BDA name="dc1" bType="INT32U"/>
+  <BDA name="dc2" bType="INT32U"/>
+  <BDA name="dc3" bType="INT32U"/>
+</DAType>
+<DAType id="Diagnostics_0">
+  <BDA name="diagnosticFlags" bType="OptFlds"/> 
+  <BDA name="adcTemp" bType="INT16"/>
+  <BDA name="transceiverTemp" bType="INT16"/>
+  <BDA name="transceiverVolts" bType="INT16"/>
+  <BDA name="transceiverCurrent" bType="INT16"/>
+  <BDA name="transceiverTxPower" bType="INT16"/>
+  <BDA name="transceiverRxPower" bType="INT16"/>
+</DAType>
+<EnumType id="Mod">
+  <EnumVal ord="1">on</EnumVal>
+  <EnumVal ord="2">blocked</EnumVal>
+  <EnumVal ord="3">test</EnumVal>
+  <EnumVal ord="4">test/blocked</EnumVal>
+  <EnumVal ord="5">off</EnumVal>
+</EnumType>
+<EnumType id="ctlModel">
+<EnumVal ord="0">status-only</EnumVal>
+<EnumVal ord="1">direct-with-normal-security</EnumVal> <EnumVal ord="2">sbo-with-normal-security</EnumVal> <EnumVal ord="3">direct-with-enhanced-security</EnumVal> <EnumVal ord="4">sbo-with-enhanced-security</EnumVal>
+</EnumType><EnumType id="Beh">
+    <EnumVal ord="1">on</EnumVal>
+    <EnumVal ord="2">blocked</EnumVal>
+    <EnumVal ord="3">test</EnumVal>
+    <EnumVal ord="4">test/blocked</EnumVal>
+    <EnumVal ord="5">off</EnumVal>
+  </EnumType>
+  <EnumType id="Health">
+    <EnumVal ord="1">Ok</EnumVal>
+    <EnumVal ord="2">Warning</EnumVal>
+    <EnumVal ord="3">Alarm</EnumVal>
+  </EnumType>
+</DataTypeTemplates>
+</SCL>

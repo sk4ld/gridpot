@@ -10485,3 +10485,72 @@
 2015-01-26 15:55:33,003 HTTP server started on: ('0.0.0.0', 80)
 2015-01-26 15:55:33,158 SNMP server started on: ('0.0.0.0', 161)
 2015-01-26 15:55:38,004 Privileges dropped, running as nobody/nogroup.
+2015-03-07 16:45:50,785 Template not found: gridlab
+2015-03-07 16:46:10,854 Starting Conpot using template: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/templates/gridpot
+2015-03-07 16:46:10,854 Starting Conpot using configuration found in: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/conpot.cfg
+2015-03-07 16:46:11,272 Fetched 76.3.1.114 as external ip.
+2015-03-07 16:46:11,276 Conpot modbus initialized
+2015-03-07 16:46:11,277 Found and enabled ('modbus', <class conpot.protocols.modbus.modbus_server.ModbusServer at 0xb4e592fc>) protocol.
+2015-03-07 16:46:11,280 Conpot S7Comm initialized
+2015-03-07 16:46:11,281 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2015-03-07 16:46:11,286 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2015-03-07 16:46:11,289 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2015-03-07 16:46:11,290 No proxy template found. Service will remain unconfigured/stopped.
+2015-03-07 16:46:11,290 Modbus server started on: ('0.0.0.0', 502)
+2015-03-07 16:46:11,290 S7Comm server started on: ('0.0.0.0', 102)
+2015-03-07 16:46:11,291 HTTP server started on: ('0.0.0.0', 80)
+2015-03-07 16:46:11,439 SNMP server started on: ('0.0.0.0', 161)
+2015-03-07 16:46:16,292 Privileges dropped, running as nobody/nogroup.
+2015-03-07 16:46:19,768 Stopping Conpot
+2015-03-07 16:46:19,770 HTTP server will shut down gracefully as soon as all connections are closed.
+2015-03-07 16:51:33,727 Starting Conpot using template: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/templates/gridpot
+2015-03-07 16:51:33,728 Starting Conpot using configuration found in: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/conpot.cfg
+2015-03-07 16:51:34,143 Fetched 76.3.1.114 as external ip.
+2015-03-07 16:51:34,146 Conpot modbus initialized
+2015-03-07 16:51:34,146 Found and enabled ('modbus', <class conpot.protocols.modbus.modbus_server.ModbusServer at 0xb4da12fc>) protocol.
+2015-03-07 16:51:34,148 Conpot S7Comm initialized
+2015-03-07 16:51:34,148 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2015-03-07 16:51:34,150 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2015-03-07 16:51:34,151 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2015-03-07 16:51:34,151 No proxy template found. Service will remain unconfigured/stopped.
+2015-03-07 16:51:34,152 Modbus server started on: ('0.0.0.0', 502)
+2015-03-07 16:51:34,152 S7Comm server started on: ('0.0.0.0', 102)
+2015-03-07 16:51:34,152 HTTP server started on: ('0.0.0.0', 80)
+2015-03-07 16:51:34,309 SNMP server started on: ('0.0.0.0', 161)
+2015-03-07 16:51:39,154 Privileges dropped, running as nobody/nogroup.
+2015-03-07 16:53:27,054 Stopping Conpot
+2015-03-07 16:53:27,055 HTTP server will shut down gracefully as soon as all connections are closed.
+2015-03-07 21:23:06,637 Starting Conpot using template: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/templates/gridpot
+2015-03-07 21:23:06,638 Starting Conpot using configuration found in: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/conpot.cfg
+2015-03-07 21:23:08,558 Fetched 76.3.1.114 as external ip.
+2015-03-07 21:23:08,560 Conpot modbus initialized
+2015-03-07 21:23:08,560 Found and enabled ('modbus', <class conpot.protocols.modbus.modbus_server.ModbusServer at 0xb4e4b2fc>) protocol.
+2015-03-07 21:23:08,562 Conpot S7Comm initialized
+2015-03-07 21:23:08,562 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2015-03-07 21:23:08,563 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2015-03-07 21:23:08,564 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2015-03-07 21:23:08,565 No proxy template found. Service will remain unconfigured/stopped.
+2015-03-07 21:23:08,565 Modbus server started on: ('0.0.0.0', 502)
+2015-03-07 21:23:08,566 S7Comm server started on: ('0.0.0.0', 102)
+2015-03-07 21:23:08,566 HTTP server started on: ('0.0.0.0', 80)
+2015-03-07 21:23:08,709 SNMP server started on: ('0.0.0.0', 161)
+2015-03-07 21:23:13,568 Privileges dropped, running as nobody/nogroup.
+2015-03-07 21:23:13,960 Stopping Conpot
+2015-03-07 21:23:13,961 HTTP server will shut down gracefully as soon as all connections are closed.
+2015-03-08 01:49:56,680 Starting Conpot using template: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/templates/gridpot
+2015-03-08 01:49:56,681 Starting Conpot using configuration found in: /usr/local/lib/python2.7/dist-packages/Conpot-0.4.0-py2.7.egg/conpot/conpot.cfg
+2015-03-08 01:49:57,097 Fetched 76.3.1.114 as external ip.
+2015-03-08 01:49:57,100 Conpot modbus initialized
+2015-03-08 01:49:57,100 Found and enabled ('modbus', <class conpot.protocols.modbus.modbus_server.ModbusServer at 0xb4e2d2fc>) protocol.
+2015-03-08 01:49:57,102 Conpot S7Comm initialized
+2015-03-08 01:49:57,103 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2015-03-08 01:49:57,105 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2015-03-08 01:49:57,106 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2015-03-08 01:49:57,106 No proxy template found. Service will remain unconfigured/stopped.
+2015-03-08 01:49:57,107 Modbus server started on: ('0.0.0.0', 502)
+2015-03-08 01:49:57,107 S7Comm server started on: ('0.0.0.0', 102)
+2015-03-08 01:49:57,110 HTTP server started on: ('0.0.0.0', 80)
+2015-03-08 01:49:57,255 SNMP server started on: ('0.0.0.0', 161)
+2015-03-08 01:50:02,108 Privileges dropped, running as nobody/nogroup.
+2015-03-08 01:50:04,203 Stopping Conpot
+2015-03-08 01:50:04,204 HTTP server will shut down gracefully as soon as all connections are closed.

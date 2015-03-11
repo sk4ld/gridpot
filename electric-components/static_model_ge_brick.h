@@ -1,0 +1,185 @@
+/*
+ * static_model.h
+ *
+ * automatically generated from ../../../electric-components/gebrick.icd
+ */
+
+#ifndef STATIC_MODEL_H_
+#define STATIC_MODEL_H_
+
+#include <stdlib.h>
+#include "iec61850_model.h"
+
+extern IedModel iedModel;
+extern LogicalDevice iedModel_LDInst;
+extern LogicalNode   iedModel_LDInst_LLN0;
+extern DataObject    iedModel_LDInst_LLN0_Mod;
+extern DataAttribute iedModel_LDInst_LLN0_Mod_stVal;
+extern DataAttribute iedModel_LDInst_LLN0_Mod_q;
+extern DataAttribute iedModel_LDInst_LLN0_Mod_t;
+extern DataAttribute iedModel_LDInst_LLN0_Mod_ctlModel;
+extern DataObject    iedModel_LDInst_LLN0_Beh;
+extern DataAttribute iedModel_LDInst_LLN0_Beh_stVal;
+extern DataAttribute iedModel_LDInst_LLN0_Beh_q;
+extern DataAttribute iedModel_LDInst_LLN0_Beh_t;
+extern DataObject    iedModel_LDInst_LLN0_Health;
+extern DataAttribute iedModel_LDInst_LLN0_Health_stVal;
+extern DataAttribute iedModel_LDInst_LLN0_Health_q;
+extern DataAttribute iedModel_LDInst_LLN0_Health_t;
+extern DataObject    iedModel_LDInst_LLN0_NamPlt;
+extern DataAttribute iedModel_LDInst_LLN0_NamPlt_vendor;
+extern DataAttribute iedModel_LDInst_LLN0_NamPlt_swRev;
+extern DataAttribute iedModel_LDInst_LLN0_NamPlt_d;
+extern DataAttribute iedModel_LDInst_LLN0_NamPlt_configRev;
+extern LogicalNode   iedModel_LDInst_LPHD1;
+extern DataObject    iedModel_LDInst_LPHD1_PhyHealth;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyHealth_stVal;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyHealth_q;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyHealth_t;
+extern DataObject    iedModel_LDInst_LPHD1_Proxy;
+extern DataAttribute iedModel_LDInst_LPHD1_Proxy_stVal;
+extern DataAttribute iedModel_LDInst_LPHD1_Proxy_q;
+extern DataAttribute iedModel_LDInst_LPHD1_Proxy_t;
+extern DataObject    iedModel_LDInst_LPHD1_PhyNam;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyNam_vendor;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyNam_swRev;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyNam_serNum;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyNam_model;
+extern DataAttribute iedModel_LDInst_LPHD1_PhyNam_location;
+extern LogicalNode   iedModel_LDInst_IBRK1;
+extern DataObject    iedModel_LDInst_IBRK1_Mod;
+extern DataAttribute iedModel_LDInst_IBRK1_Mod_stVal;
+extern DataAttribute iedModel_LDInst_IBRK1_Mod_q;
+extern DataAttribute iedModel_LDInst_IBRK1_Mod_t;
+extern DataAttribute iedModel_LDInst_IBRK1_Mod_ctlModel;
+extern DataObject    iedModel_LDInst_IBRK1_Beh;
+extern DataAttribute iedModel_LDInst_IBRK1_Beh_stVal;
+extern DataAttribute iedModel_LDInst_IBRK1_Beh_q;
+extern DataAttribute iedModel_LDInst_IBRK1_Beh_t;
+extern DataObject    iedModel_LDInst_IBRK1_Health;
+extern DataAttribute iedModel_LDInst_IBRK1_Health_stVal;
+extern DataAttribute iedModel_LDInst_IBRK1_Health_q;
+extern DataAttribute iedModel_LDInst_IBRK1_Health_t;
+extern DataObject    iedModel_LDInst_IBRK1_NamPlt;
+extern DataAttribute iedModel_LDInst_IBRK1_NamPlt_vendor;
+extern DataAttribute iedModel_LDInst_IBRK1_NamPlt_swRev;
+extern DataAttribute iedModel_LDInst_IBRK1_NamPlt_d;
+extern DataAttribute iedModel_LDInst_IBRK1_NamPlt_configRev;
+extern DataObject    iedModel_LDInst_IBRK1_U;
+extern DataAttribute iedModel_LDInst_IBRK1_U_smpNum;
+extern DataAttribute iedModel_LDInst_IBRK1_U_model;
+extern DataAttribute iedModel_LDInst_IBRK1_U_serNum;
+extern DataAttribute iedModel_LDInst_IBRK1_U_outputs;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac1;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac2;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac3;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac4;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac5;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac6;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac7;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_ac8;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_dc1;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_dc2;
+extern DataAttribute iedModel_LDInst_IBRK1_U_analogs_dc3;
+extern DataAttribute iedModel_LDInst_IBRK1_U_contactInputs;
+extern DataAttribute iedModel_LDInst_IBRK1_U_sharedInputs;
+extern DataAttribute iedModel_LDInst_IBRK1_U_outputMonitors;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_diagnosticFlags;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_adcTemp;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_transceiverTemp;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_transceiverVolts;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_transceiverCurrent;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_transceiverTxPower;
+extern DataAttribute iedModel_LDInst_IBRK1_U_diagnostics_transceiverRxPower;
+extern DataAttribute iedModel_LDInst_IBRK1_U_lnNs;
+
+
+
+#define IEDMODEL_LDInst (&iedModel_LDInst)
+#define IEDMODEL_LDInst_LLN0 (&iedModel_LDInst_LLN0)
+#define IEDMODEL_LDInst_LLN0_Mod (&iedModel_LDInst_LLN0_Mod)
+#define IEDMODEL_LDInst_LLN0_Mod_stVal (&iedModel_LDInst_LLN0_Mod_stVal)
+#define IEDMODEL_LDInst_LLN0_Mod_q (&iedModel_LDInst_LLN0_Mod_q)
+#define IEDMODEL_LDInst_LLN0_Mod_t (&iedModel_LDInst_LLN0_Mod_t)
+#define IEDMODEL_LDInst_LLN0_Mod_ctlModel (&iedModel_LDInst_LLN0_Mod_ctlModel)
+#define IEDMODEL_LDInst_LLN0_Beh (&iedModel_LDInst_LLN0_Beh)
+#define IEDMODEL_LDInst_LLN0_Beh_stVal (&iedModel_LDInst_LLN0_Beh_stVal)
+#define IEDMODEL_LDInst_LLN0_Beh_q (&iedModel_LDInst_LLN0_Beh_q)
+#define IEDMODEL_LDInst_LLN0_Beh_t (&iedModel_LDInst_LLN0_Beh_t)
+#define IEDMODEL_LDInst_LLN0_Health (&iedModel_LDInst_LLN0_Health)
+#define IEDMODEL_LDInst_LLN0_Health_stVal (&iedModel_LDInst_LLN0_Health_stVal)
+#define IEDMODEL_LDInst_LLN0_Health_q (&iedModel_LDInst_LLN0_Health_q)
+#define IEDMODEL_LDInst_LLN0_Health_t (&iedModel_LDInst_LLN0_Health_t)
+#define IEDMODEL_LDInst_LLN0_NamPlt (&iedModel_LDInst_LLN0_NamPlt)
+#define IEDMODEL_LDInst_LLN0_NamPlt_vendor (&iedModel_LDInst_LLN0_NamPlt_vendor)
+#define IEDMODEL_LDInst_LLN0_NamPlt_swRev (&iedModel_LDInst_LLN0_NamPlt_swRev)
+#define IEDMODEL_LDInst_LLN0_NamPlt_d (&iedModel_LDInst_LLN0_NamPlt_d)
+#define IEDMODEL_LDInst_LLN0_NamPlt_configRev (&iedModel_LDInst_LLN0_NamPlt_configRev)
+#define IEDMODEL_LDInst_LPHD1 (&iedModel_LDInst_LPHD1)
+#define IEDMODEL_LDInst_LPHD1_PhyHealth (&iedModel_LDInst_LPHD1_PhyHealth)
+#define IEDMODEL_LDInst_LPHD1_PhyHealth_stVal (&iedModel_LDInst_LPHD1_PhyHealth_stVal)
+#define IEDMODEL_LDInst_LPHD1_PhyHealth_q (&iedModel_LDInst_LPHD1_PhyHealth_q)
+#define IEDMODEL_LDInst_LPHD1_PhyHealth_t (&iedModel_LDInst_LPHD1_PhyHealth_t)
+#define IEDMODEL_LDInst_LPHD1_Proxy (&iedModel_LDInst_LPHD1_Proxy)
+#define IEDMODEL_LDInst_LPHD1_Proxy_stVal (&iedModel_LDInst_LPHD1_Proxy_stVal)
+#define IEDMODEL_LDInst_LPHD1_Proxy_q (&iedModel_LDInst_LPHD1_Proxy_q)
+#define IEDMODEL_LDInst_LPHD1_Proxy_t (&iedModel_LDInst_LPHD1_Proxy_t)
+#define IEDMODEL_LDInst_LPHD1_PhyNam (&iedModel_LDInst_LPHD1_PhyNam)
+#define IEDMODEL_LDInst_LPHD1_PhyNam_vendor (&iedModel_LDInst_LPHD1_PhyNam_vendor)
+#define IEDMODEL_LDInst_LPHD1_PhyNam_swRev (&iedModel_LDInst_LPHD1_PhyNam_swRev)
+#define IEDMODEL_LDInst_LPHD1_PhyNam_serNum (&iedModel_LDInst_LPHD1_PhyNam_serNum)
+#define IEDMODEL_LDInst_LPHD1_PhyNam_model (&iedModel_LDInst_LPHD1_PhyNam_model)
+#define IEDMODEL_LDInst_LPHD1_PhyNam_location (&iedModel_LDInst_LPHD1_PhyNam_location)
+#define IEDMODEL_LDInst_IBRK1 (&iedModel_LDInst_IBRK1)
+#define IEDMODEL_LDInst_IBRK1_Mod (&iedModel_LDInst_IBRK1_Mod)
+#define IEDMODEL_LDInst_IBRK1_Mod_stVal (&iedModel_LDInst_IBRK1_Mod_stVal)
+#define IEDMODEL_LDInst_IBRK1_Mod_q (&iedModel_LDInst_IBRK1_Mod_q)
+#define IEDMODEL_LDInst_IBRK1_Mod_t (&iedModel_LDInst_IBRK1_Mod_t)
+#define IEDMODEL_LDInst_IBRK1_Mod_ctlModel (&iedModel_LDInst_IBRK1_Mod_ctlModel)
+#define IEDMODEL_LDInst_IBRK1_Beh (&iedModel_LDInst_IBRK1_Beh)
+#define IEDMODEL_LDInst_IBRK1_Beh_stVal (&iedModel_LDInst_IBRK1_Beh_stVal)
+#define IEDMODEL_LDInst_IBRK1_Beh_q (&iedModel_LDInst_IBRK1_Beh_q)
+#define IEDMODEL_LDInst_IBRK1_Beh_t (&iedModel_LDInst_IBRK1_Beh_t)
+#define IEDMODEL_LDInst_IBRK1_Health (&iedModel_LDInst_IBRK1_Health)
+#define IEDMODEL_LDInst_IBRK1_Health_stVal (&iedModel_LDInst_IBRK1_Health_stVal)
+#define IEDMODEL_LDInst_IBRK1_Health_q (&iedModel_LDInst_IBRK1_Health_q)
+#define IEDMODEL_LDInst_IBRK1_Health_t (&iedModel_LDInst_IBRK1_Health_t)
+#define IEDMODEL_LDInst_IBRK1_NamPlt (&iedModel_LDInst_IBRK1_NamPlt)
+#define IEDMODEL_LDInst_IBRK1_NamPlt_vendor (&iedModel_LDInst_IBRK1_NamPlt_vendor)
+#define IEDMODEL_LDInst_IBRK1_NamPlt_swRev (&iedModel_LDInst_IBRK1_NamPlt_swRev)
+#define IEDMODEL_LDInst_IBRK1_NamPlt_d (&iedModel_LDInst_IBRK1_NamPlt_d)
+#define IEDMODEL_LDInst_IBRK1_NamPlt_configRev (&iedModel_LDInst_IBRK1_NamPlt_configRev)
+#define IEDMODEL_LDInst_IBRK1_U (&iedModel_LDInst_IBRK1_U)
+#define IEDMODEL_LDInst_IBRK1_U_smpNum (&iedModel_LDInst_IBRK1_U_smpNum)
+#define IEDMODEL_LDInst_IBRK1_U_model (&iedModel_LDInst_IBRK1_U_model)
+#define IEDMODEL_LDInst_IBRK1_U_serNum (&iedModel_LDInst_IBRK1_U_serNum)
+#define IEDMODEL_LDInst_IBRK1_U_outputs (&iedModel_LDInst_IBRK1_U_outputs)
+#define IEDMODEL_LDInst_IBRK1_U_analogs (&iedModel_LDInst_IBRK1_U_analogs)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac1 (&iedModel_LDInst_IBRK1_U_analogs_ac1)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac2 (&iedModel_LDInst_IBRK1_U_analogs_ac2)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac3 (&iedModel_LDInst_IBRK1_U_analogs_ac3)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac4 (&iedModel_LDInst_IBRK1_U_analogs_ac4)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac5 (&iedModel_LDInst_IBRK1_U_analogs_ac5)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac6 (&iedModel_LDInst_IBRK1_U_analogs_ac6)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac7 (&iedModel_LDInst_IBRK1_U_analogs_ac7)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_ac8 (&iedModel_LDInst_IBRK1_U_analogs_ac8)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_dc1 (&iedModel_LDInst_IBRK1_U_analogs_dc1)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_dc2 (&iedModel_LDInst_IBRK1_U_analogs_dc2)
+#define IEDMODEL_LDInst_IBRK1_U_analogs_dc3 (&iedModel_LDInst_IBRK1_U_analogs_dc3)
+#define IEDMODEL_LDInst_IBRK1_U_contactInputs (&iedModel_LDInst_IBRK1_U_contactInputs)
+#define IEDMODEL_LDInst_IBRK1_U_sharedInputs (&iedModel_LDInst_IBRK1_U_sharedInputs)
+#define IEDMODEL_LDInst_IBRK1_U_outputMonitors (&iedModel_LDInst_IBRK1_U_outputMonitors)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics (&iedModel_LDInst_IBRK1_U_diagnostics)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_diagnosticFlags (&iedModel_LDInst_IBRK1_U_diagnostics_diagnosticFlags)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_adcTemp (&iedModel_LDInst_IBRK1_U_diagnostics_adcTemp)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_transceiverTemp (&iedModel_LDInst_IBRK1_U_diagnostics_transceiverTemp)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_transceiverVolts (&iedModel_LDInst_IBRK1_U_diagnostics_transceiverVolts)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_transceiverCurrent (&iedModel_LDInst_IBRK1_U_diagnostics_transceiverCurrent)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_transceiverTxPower (&iedModel_LDInst_IBRK1_U_diagnostics_transceiverTxPower)
+#define IEDMODEL_LDInst_IBRK1_U_diagnostics_transceiverRxPower (&iedModel_LDInst_IBRK1_U_diagnostics_transceiverRxPower)
+#define IEDMODEL_LDInst_IBRK1_U_lnNs (&iedModel_LDInst_IBRK1_U_lnNs)
+
+#endif /* STATIC_MODEL_H_ */
+

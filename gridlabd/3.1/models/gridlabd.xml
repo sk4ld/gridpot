@@ -6,17 +6,17 @@
 	<version.patch>0</version.patch>
 	<version.build>4994</version.build>
 	<version.branch>Hatwai</version.branch>
-	<command_line>"/usr/local/bin/gridlabd.bin -D run_realtime=1 -P 6267 --server --debug --verbose IEEE_13_Node_Test_Feeder.glm"</command_line>
+	<command_line>"/usr/local/bin/gridlabd.bin -D run_realtime=1 --server --debug --verbose IEEE_13_Node_Test_Feeder.glm"</command_line>
 	<environment>server</environment>
 	<quiet>FALSE</quiet>
-	<warn>FALSE</warn>
+	<warn>TRUE</warn>
 	<debugger>FALSE</debugger>
 	<gdb>FALSE</gdb>
 	<debug>TRUE</debug>
 	<test>FALSE</test>
 	<verbose>TRUE</verbose>
 	<iteration_limit>100000</iteration_limit>
-	<workdir>/home/sk4ld/gridpot-dev/gridlabd/3.1/models</workdir>
+	<workdir>/home/beaker/Documents/honeypot/gridpot/gridlabd/3.1/models</workdir>
 	<dumpfile>gridlabd.xml</dumpfile>
 	<savefile>""</savefile>
 	<dumpall>FALSE</dumpall>
@@ -26,7 +26,7 @@
 	<pauseatexit>FALSE</pauseatexit>
 	<testoutputfile>test.txt</testoutputfile>
 	<xml_encoding>8</xml_encoding>
-	<clock>2015-01-26 15:55:27 EST</clock>
+	<clock>2015-03-11 04:44:04 EDT</clock>
 	<starttime>2000-01-01 00:00:00 EST</starttime>
 	<stoptime>NEVER</stoptime>
 	<double_format>%+lg</double_format>
@@ -40,11 +40,11 @@
 	<strictnames>TRUE</strictnames>
 	<website>http://www.gridlabd.org/</website>
 	<urlbase>http://www.gridlabd.org/</urlbase>
-	<randomseed>2031109916</randomseed>
+	<randomseed>-1792606957</randomseed>
 	<include>""</include>
 	<trace>""</trace>
 	<gdb_window>FALSE</gdb_window>
-	<tmp>/home/sk4ld/.gridlabd/tmp</tmp>
+	<tmp>/home/beaker/.gridlabd/tmp</tmp>
 	<force_compile>0</force_compile>
 	<nolocks>FALSE</nolocks>
 	<skipsafe>FALSE</skipsafe>
@@ -521,7 +521,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n633</name>
 				<bustype>PQ</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -563,7 +563,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -573,7 +573,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n630</name>
 				<bustype>PQ</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -615,7 +615,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -625,7 +625,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n632</name>
 				<bustype>PQ</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -667,7 +667,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -676,7 +676,7 @@
 				<id>39</id>
 				<rank>6</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n650</name>
 				<bustype>SWING</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -718,7 +718,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -728,7 +728,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n680</name>
 				<bustype>PQ</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -770,7 +770,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -780,7 +780,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>n684</name>
 				<bustype>PQ</bustype>
 				<busflags>HASSOURCE</busflags>
@@ -822,7 +822,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ACN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -970,7 +970,7 @@
 				<id>19</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_632-645</name>
 				<configuration>lc603</configuration>
 				<length>+500 ft</length>
@@ -1013,7 +1013,7 @@
 				<id>20</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_645-646</name>
 				<configuration>lc603</configuration>
 				<length>+300 ft</length>
@@ -1056,7 +1056,7 @@
 				<id>21</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_630-632</name>
 				<configuration>lc601</configuration>
 				<length>+2000 ft</length>
@@ -1099,7 +1099,7 @@
 				<id>22</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_632-6321</name>
 				<configuration>lc601</configuration>
 				<length>+500 ft</length>
@@ -1142,7 +1142,7 @@
 				<id>23</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_6321-671</name>
 				<configuration>lc601</configuration>
 				<length>+1500 ft</length>
@@ -1185,29 +1185,29 @@
 				<id>24</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_671-680</name>
 				<configuration>lc601</configuration>
 				<length>+1000 ft</length>
 				<status>CLOSED</status>
 				<from>l671</from>
 				<to>n680</to>
-				<power_in>+3.02342e-07-24.2078i VA</power_in>
-				<power_out>+3.71277e-09-1.9348e-09i VA</power_out>
-				<power_out_real>+3.71277e-09 W</power_out_real>
+				<power_in>+3.01551e-07-24.2078i VA</power_in>
+				<power_out>+2.92249e-09+5.75535e-09i VA</power_out>
+				<power_out_real>+2.92249e-09 W</power_out_real>
 				<power_losses>+2.62465-24.2078i VA</power_losses>
 				<power_in_A>-0.881216-8.47422i VA</power_in_A>
 				<power_in_B>+1.31232-8.68227j VA</power_in_B>
 				<power_in_C>-0.431107-7.05135j VA</power_in_C>
-				<power_out_A>+1.53389e-10+1.77003e-09i VA</power_out_A>
-				<power_out_B>-1.17838e-10+6.6676e-10j VA</power_out_B>
-				<power_out_C>+3.67722e-09-4.37159e-09j VA</power_out_C>
+				<power_out_A>+1.42561e-09+1.49541e-09i VA</power_out_A>
+				<power_out_B>+1.12398e-09+4.04741e-09j VA</power_out_B>
+				<power_out_C>+3.72899e-10+2.1253e-10j VA</power_out_C>
 				<power_losses_A>+0.881216-8.47422i VA</power_losses_A>
 				<power_losses_B>+1.31232-8.68227j VA</power_losses_B>
 				<power_losses_C>+0.431107-7.05135j VA</power_losses_C>
-				<current_out_A>-4.44901e-15-7.47044e-13j A</current_out_A>
-				<current_out_B>-1.97939e-13+1.8055e-13j A</current_out_B>
-				<current_out_C>-2.35293e-12+5.92556e-13j A</current_out_C>
+				<current_out_A>+5.38869e-13-6.81422e-13j A</current_out_A>
+				<current_out_B>-1.59094e-12+4.81137e-13j A</current_out_B>
+				<current_out_C>+1.19126e-14+1.81918e-13j A</current_out_C>
 				<current_in_A>-4.01835e-05+0.00358225j A</current_in_A>
 				<current_in_B>+0.00262451-0.00227679j A</current_in_B>
 				<current_in_C>-0.00261338-0.00147452j A</current_in_C>
@@ -1228,7 +1228,7 @@
 				<id>25</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_671-684</name>
 				<configuration>lc604</configuration>
 				<length>+300 ft</length>
@@ -1271,7 +1271,7 @@
 				<id>26</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_684-611</name>
 				<configuration>lc605</configuration>
 				<length>+300 ft</length>
@@ -1314,7 +1314,7 @@
 				<id>29</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_632-633</name>
 				<configuration>lc602</configuration>
 				<length>+500 ft</length>
@@ -1360,7 +1360,7 @@
 				<id>27</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_684-652</name>
 				<configuration>lc607</configuration>
 				<length>+800 ft</length>
@@ -1403,7 +1403,7 @@
 				<id>28</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>line_692-675</name>
 				<configuration>lc606</configuration>
 				<length>+500 ft</length>
@@ -1785,7 +1785,7 @@
 				<id>80</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>transformer_633-634</name>
 				<configuration>tc400</configuration>
 				<ambient_temperature>+0 degC</ambient_temperature>
@@ -1839,7 +1839,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l634</name>
 				<load_class>U</load_class>
 				<constant_power_A>+160000+110000j VA</constant_power_A>
@@ -1991,7 +1991,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+480 V</nominal_voltage>
@@ -2001,7 +2001,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l645</name>
 				<load_class>U</load_class>
 				<constant_power_A>+0+0j VA</constant_power_A>
@@ -2153,7 +2153,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>BCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2163,7 +2163,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l646</name>
 				<load_class>U</load_class>
 				<constant_power_A>+0+0j VA</constant_power_A>
@@ -2315,7 +2315,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>BCD</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2325,7 +2325,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l652</name>
 				<load_class>U</load_class>
 				<constant_power_A>+0+0j VA</constant_power_A>
@@ -2477,7 +2477,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>AN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2487,7 +2487,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l671</name>
 				<load_class>U</load_class>
 				<constant_power_A>+385000+220000j VA</constant_power_A>
@@ -2639,7 +2639,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCD</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2649,7 +2649,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l675</name>
 				<load_class>U</load_class>
 				<constant_power_A>+485000+190000j VA</constant_power_A>
@@ -2801,7 +2801,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABC</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2811,7 +2811,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l692</name>
 				<load_class>U</load_class>
 				<constant_power_A>+0+0j VA</constant_power_A>
@@ -2963,7 +2963,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCD</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -2973,7 +2973,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l611</name>
 				<load_class>U</load_class>
 				<constant_power_A>+0+0j VA</constant_power_A>
@@ -3125,7 +3125,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>CN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -3135,7 +3135,7 @@
 				<rank>4</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>l671</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l6711</name>
 				<load_class>U</load_class>
 				<constant_power_A>+5666.67+3333.33j VA</constant_power_A>
@@ -3287,7 +3287,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<topological_parent>l671</topological_parent>
 				<phases>ABC</phases>
@@ -3298,7 +3298,7 @@
 				<rank>5</rank>
 				<out_svc>NEVER</out_svc>
 				<parent>n650</parent>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>l6321</name>
 				<load_class>U</load_class>
 				<constant_power_A>+11333.3+6666.67j VA</constant_power_A>
@@ -3450,7 +3450,7 @@
 				<service_status>IN_SERVICE</service_status>
 				<service_status_double>-1</service_status_double>
 				<previous_uptime>-1 min</previous_uptime>
-				<current_uptime>+7.92672e+06 min</current_uptime>
+				<current_uptime>+7.98934e+06 min</current_uptime>
 				<Norton_dynamic>FALSE</Norton_dynamic>
 				<phases>ABCN</phases>
 				<nominal_voltage>+2401.78 V</nominal_voltage>
@@ -3495,7 +3495,7 @@
 				<id>82</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>fregn650n630</name>
 				<configuration>regconfig6506321</configuration>
 				<tap_A>10</tap_A>
@@ -3511,14 +3511,14 @@
 				<power_in>+3.59521e+06+1.69721e+06i VA</power_in>
 				<power_out>+3.59512e+06+1.69721e+06j VA</power_out>
 				<power_out_real>+3.59512e+06 W</power_out_real>
-				<power_losses>+82.9581+1.16415e-10i VA</power_losses>
+				<power_losses>+82.9581+0i VA</power_losses>
 				<power_in_A>+1.26157e+06+678443i VA</power_in_A>
 				<power_in_B>+977207+373720j VA</power_in_B>
 				<power_in_C>+1.35643e+06+645046j VA</power_in_C>
 				<power_out_A>+1.26154e+06+678443j VA</power_out_A>
 				<power_out_B>+977189+373720j VA</power_out_B>
 				<power_out_C>+1.3564e+06+645046j VA</power_out_C>
-				<power_losses_A>+31.5079+1.16415e-10i VA</power_losses_A>
+				<power_losses_A>+31.5079+0i VA</power_losses_A>
 				<power_losses_B>+17.2112+0j VA</power_losses_B>
 				<power_losses_C>+34.239+0j VA</power_losses_C>
 				<current_out_A>+494.366-265.859j A</current_out_A>
@@ -3560,7 +3560,7 @@
 				<id>78</id>
 				<rank>2</rank>
 				<out_svc>NEVER</out_svc>
-				<clock>2015-01-26 15:55:27 EST</clock>
+				<clock>2015-03-11 04:44:04 EDT</clock>
 				<name>switch_671-692</name>
 				<phase_A_state>CLOSED</phase_A_state>
 				<phase_B_state>CLOSED</phase_B_state>

@@ -1,0 +1,76 @@
+# Apple related files
+.DS_Store
+._.DS_Store
+
+# python related files
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env
+build
+develop-eggs
+dist
+downloads
+eggs
+lib
+lib64
+parts
+sdist
+var
+*.egg-info
+.installed.cfg
+*.egg
+
+# automake/autotools
+Makefile.in
+configure
+config.guess
+config.sub
+ltmain.sh
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+# C/C++ related files
+# Compiled Object files
+*.slo
+*.so
+*.lo
+*.o
+*.obj
+*.Plo
+*.lai
+*.Po
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.x
+
+# emacs
+*~
