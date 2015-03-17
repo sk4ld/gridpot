@@ -9,15 +9,15 @@
   <SubNetwork name="NONE">
     <ConnectedAP iedName="IEDName" apName="P1">
       <Address>
-        <P type="IP" xsi:type="tP_IP">192.168.37.199</P>
+        <P type="IP" xsi:type="tP_IP">10.0.0.3</P>
         <P type="IP-SUBNET" xsi:type="tP_IP-SUBNET">255.255.255.0</P> 
-        <P type="IP-GATEWAY" xsi:type="tP_IP-GATEWAY">0.0.0.0</P>
+        <P type="IP-GATEWAY" xsi:type="tP_IP-GATEWAY">10.0.0.1</P>
         <P type="S-Profile">1</P>
       </Address>
       <SMV ldInst="LDInst" cbName="MSVCB01">
         <Address>
           <P type="MAC-Address" xsi:type="tP_MAC-Address"> 01-0C-CD-04-00-00</P>
-          <P type="APPID" xsi:type="tP_APPID">0000</P>
+          <P type="APPID" xsi:type="tP_APPID">1000</P>
           <P type="VLAN-ID" xsi:type="tP_VLAN-ID">007</P>
           <P type="VLAN-PRIORITY" xsi:type="tP_VLAN-PRIORITY">0</P>
         </Address>
@@ -50,7 +50,8 @@
     <Server>
       <Authentication none="true"/>
       <LDevice inst="LDInst">
-<LN0 lnType="IEDName/LDInst/LLN0_0" lnClass="LLN0" inst=""> <DataSet name="F" desc="Fast Data Set of Brick's Sampled Values
+<LN0 lnType="IEDName/LDInst/LLN0_0" lnClass="LLN0" inst=""> 
+<DataSet name="F" desc="Fast Data Set of Brick's Sampled Values
 Transmitted via Multicast SV Service">
 <FCDA ldInst="LDInst" prefix="" lnInst="1" lnClass="IBRK"
 fc="MX" doName="U" daName="analogs.ac1"/>

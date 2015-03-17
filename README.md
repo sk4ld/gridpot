@@ -1,9 +1,8 @@
-# gridpot
-
+# gridpot-dev
+Private gridpot repo
 
 # Dependencies
-Install these dependencies before buiding and installing gridlabd, conpot, libiec61850
-and electric_components
+Install these dependencies before buiding and installing gridlabd and conpot
 
 * autconf/automake/libtool
 * subversion
@@ -11,7 +10,7 @@ and electric_components
 * mysql-server   (library and dev files)
 * python-mysqldb
 * xerces-c       (library and dev files)
-* libcurl
+* libcurl(ssl|gnutls)
 
 more gridlabd info: http://gridlab-d.sourceforge.net/wiki/index.php/Linux/Unix
 
@@ -27,14 +26,17 @@ conpot/sudo python setup.py install
 
 Set up gridlabd with:
 
+autoreconf -isf
+
+make
+
 sudo make install
 
-Set up libiec61850
-make
-sudo make INSTALL_PREFIX=/usr/local install
+Set up libiec61850:
 
-set up electric_components
 make
+
+make INSTALL_PREFIX=/usr/local install
 
 # Demo commands
 
@@ -49,6 +51,8 @@ gridlabd -D run_realtime=1 --server --debug --verbose IEEE_13_Node_Test_Feeder.g
 For conpot:
 
 sudo conpot -t gridpot
+
+start configured IEDs
 
 # Useful Developer Links
 

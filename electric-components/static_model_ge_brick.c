@@ -1,7 +1,7 @@
 /*
  * static_model.c
  *
- * automatically generated from ../../../electric-components/gebrick.icd
+ * automatically generated from gebrick.icd
  */
 #include <stdlib.h>
 #include "iec61850_model.h"

@@ -1,7 +1,7 @@
 /*
  * static_model.h
  *
- * automatically generated from ../../../electric-components/gebrick.icd
+ * automatically generated from gebrick.icd
  */
 
 #ifndef STATIC_MODEL_H_
