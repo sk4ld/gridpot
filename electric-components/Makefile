@@ -13,9 +13,6 @@ all: gebrick.x ied_attack.x
 gebrick.x: electric_common.o static_model_switch_control.o gebrick.o
 	gcc $(CFLAGS) -o gebrick.x electric_common.o static_model_switch_control.o gebrick.o $(LDLIBS)
 
-ied_attack.x: ied_attack.c
-	gcc $(CFLAGS) -o ied_attack.x ied_attack.c $(LDLIBS)
-
 electric_common.o: electric_common.h electric_common.c
 	gcc -c electric_common.c
 
