@@ -1,3 +1,5 @@
+GridPot
+
 # Dependencies
 Install these dependencies before buiding and installing gridlabd and conpot
 
