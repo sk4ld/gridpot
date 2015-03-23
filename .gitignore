@@ -1,3 +1,8 @@
+#GridLAB-D related files
+gridlabd.xml
+*.log
+
+
 # Apple related files
 .DS_Store
 ._.DS_Store
